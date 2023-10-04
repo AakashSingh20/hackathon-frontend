@@ -1,0 +1,17 @@
+/* Custom Modal Styles */
+.custom-modal {
+    max-width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the modal horizontally */
+  }
+  
+  .custom-modal .modal-content {
+    max-height: 80vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max height */
+  }
+  
+  /* Custom Modal Content Styles */
+  .custom-modal-content {
+    padding: 20px; /* Adjust padding as needed */
+    width: 100%; /* Adjust the width as needed */
+  }
+  
