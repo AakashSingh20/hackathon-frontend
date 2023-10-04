@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-color: #d4d3d3 ;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app--content{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+.left--menu{
+  height: 525px;
+  width: 15.625rem;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-left: 10px;
+  background-color: white;
+  position: sticky;
+}
+.mid--menu{
+  height: 100%;
+  /* margin-left: 18.125rem; */
+  padding: 1.25rem;
+  padding-top: 0;
+  /* margin-bottom: auto; */
+  width: 51.563rem;
+  /* width: 75rem; */
+  /* border: 1px solid black; */
+  /* text-align: center; */
+  margin-left: 1rem;
+  /* margin-right: 1rem; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.right--menu{
+  background-color: white;
+  height: 100%;
+  width: 21.25rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: center; */
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  /* text-align: center; */
+}
+
+
+
+.app--header{
+  margin-bottom: 10px;
+  padding: 1.563rem;  
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app--header--left{
+  display: flex;
+}
+
+.app--header--left--item{
+  margin-right: 7.813rem;
+}
+
+.sidebar--list--item{
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  padding-left: 0;
+}
+
+.sidebar--list--item a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.sidebar--list{
+  margin-top: 1.563rem;
+  margin-left: 0;
+}
+
+.mid--menu--greet{
+  /* border: 1px solid black; */
+  color: white;
+  margin-top: 0;
+  background-color: #6a68ff;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.mid--menu--para{
+  margin: 15px;
+  margin-left: 0;
+}
+
+.mid--menu--button{
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #C86DFF;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mid--menu--employee--operations{
+  border: none;
+  margin: 16px;
+  margin-left: 0;
+  padding: 19px;
+  background-color: white;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right--menu--analytics{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+}
+
+.right--menu--analytics--1{
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.right--menu--recent{
+  margin-top: 20px;
+}
+.right--menu--recent--card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.right--menu--recent--card--time{
+  font-size: 10px;
+}
+.card--name{
+  font-size: 16px;
+}
+.card--text{
+  font-size: 12px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.right--menu--button{
+  background-color: #6A68FF;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/* HR Forum Answer */
+
+.hr--forum--answer{
+  border: 1px solid black;
+  width: 51.5rem;
+  /* width: 72.813rem; */
+  padding: 25px;
+  background-color: #6a68ff ;
+}
+
+.hr--forum--answer{
+  width: 51.5rem;
+  color: white  ;
+}
+
+.answer--button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.answer--btn{
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #C86DFF ;
 }
